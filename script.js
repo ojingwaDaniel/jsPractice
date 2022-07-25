@@ -25,7 +25,7 @@ function mutiply(digit1,digit2){
     return answer
 }
 let finalAnswer =  mutiply(2,2)
-                    FUNCTION : REST
+                    //FUNCTION : REST
 function addingNumbers(clientName,...numbers){
     let answer = 1
 
@@ -57,5 +57,32 @@ let customer = {
     
    }
    console.log(customer.favWord('WHEN DUTY CALLS COMMITMENT IS REQUIRED'))
-
-
+   // HOW TO MAKE YOUR JAVASCRIPT FROM LAGGING IN A PAGE...> HEAD TO HTML
+//    window.onbeforeunload = function(){
+//     console.log('Posting a picture')
+//     return 'are you sure you want to refresh this page'
+//    }
+//    window.Beforeunload = function(){
+//     console.log('Posting a picture')
+//     alert( 'are you sure you want to refresh this page')
+//    }
+// //        SCOOPING JAVASCRIPT involving javascript
+let digits = 65;
+if(digits ===65){
+    var prints = 'if you see any digit it must be 65'
+}else{
+    console.log('oga enter 65 digits')
+}
+console.log(prints)
+//  HOISIING IN JAVASCRIPT
+console.log('will barcelona actually sign',player2)
+var player2 = 'kounde'
+console.log('barcelona won the race to sign',player2)
+// JAVASCRIPT CLOSURE
+let club = 'Barcelona'
+function fan(){
+    console.log(`i was born with my blood been blue and red , guess which club is that , which club if not ${club}`)
+    let secondFavClub = 'Man City'
+}
+fan()
+console.log(secondFavClub)
