@@ -1,31 +1,31 @@
-// // PROGRAMME TO KNOW IF YOU ARE OLD ENOUGH TO VOTE
-// let votersAge= 34;
-// if (votersAge >= 18) {
-//     console.log('Congratulations you are qualified to vote, Make good use of your voting right');
-// }
-// else{
-//     console.log('Ouch! Sorry you are not qualified to vote because you are less than 18');
-// }
-// //        MY PROFILE
-// let profile = {
-//     'First-name': 'Daniel',
-//     'Surname' : 'Ojingwa',
-//     'Hobby' : ['Football','Music','Travelling','Driving','Coding'],
-//     'Fav-Food': 'porridge yam'
-// }
-// //       FOR LOOP 
-// let  barcaPlayers= ['Ter-stergen','Dest','Pique','Arajuo','Sergio Busquet','Gavi','Dembele','Pedri','lewandoski','Ansu Fati','Rapinha']
-// for(let i = 0;i > barcaPlayers.length; i++){
-//     console.log(i,barcaPlayers[i])
-// }
-// let barcaYoungStar = document.querySelector('.container')
-//     //FUNCTIONS
-// function mutiply(digit1,digit2){
-//     let answer = digit1 * digit2
-//     return answer
-// }
-// let finalAnswer =  mutiply(2,2)
-//                     FUNCTION : REST
+// PROGRAMME TO KNOW IF YOU ARE OLD ENOUGH TO VOTE
+let votersAge= 34;
+if (votersAge >= 18) {
+    console.log('Congratulations you are qualified to vote, Make good use of your voting right');
+}
+else{
+    console.log('Ouch! Sorry you are not qualified to vote because you are less than 18');
+}
+//        MY PROFILE
+let profile = {
+    'First-name': 'Daniel',
+    'Surname' : 'Ojingwa',
+    'Hobby' : ['Football','Music','Travelling','Driving','Coding'],
+    'Fav-Food': 'porridge yam'
+}
+//       FOR LOOP 
+let  barcaPlayers= ['Ter-stergen','Dest','Pique','Arajuo','Sergio Busquet','Gavi','Dembele','Pedri','lewandoski','Ansu Fati','Rapinha']
+for(let i = 0;i > barcaPlayers.length; i++){
+    console.log(i,barcaPlayers[i])
+}
+let barcaYoungStar = document.querySelector('.container')
+    //FUNCTIONS
+function mutiply(digit1,digit2){
+    let answer = digit1 * digit2
+    return answer
+}
+let finalAnswer =  mutiply(2,2)
+                    FUNCTION : REST
 function addingNumbers(clientName,...numbers){
     let answer = 1
 
@@ -36,3 +36,26 @@ function addingNumbers(clientName,...numbers){
 }   
 let total = addingNumbers('Mr Garuba Clinton',234,456,678,368)
 console.log(total)
+// ADDING FUNCTIONS IN OBJECTS
+let customerName = {
+    'name': 'Daniel',
+    'age': 32,
+    'Address':'1 Odefe Garuba Street',
+     favourite(favouriteWords = 'LETS KEEP IMPROVING'){
+        console.log(`${this.name} favourite quote is ${favouriteWords}`);
+     }
+}
+console.log(customerName.favourite('YOU CAN DO IT'));
+//  OR 
+let customer = {
+    'name': 'Chidebere',
+    'age': 40,
+    'Address':'1 Odefe Garuba Street',
+    'favWord':function(quote = 'NEVER GIVE UP') {
+        console.log(`${this.name} favourite quote is ${quote}`);
+    }
+    
+   }
+   console.log(customer.favWord('WHEN DUTY CALLS COMMITMENT IS REQUIRED'))
+
+
