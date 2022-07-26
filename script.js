@@ -79,6 +79,7 @@ console.log('will barcelona actually sign',player2)
 var player2 = 'kounde'
 console.log('barcelona won the race to sign',player2)
 // JAVASCRIPT CLOSURE
+// because  the variable secondFavClub is a closure of the function fan() it cant be accessed outside the closure
 let club = 'Barcelona'
 function fan(){
     console.log(`i was born with my blood been blue and red , guess which club is that , which club if not ${club}`)
@@ -86,3 +87,14 @@ function fan(){
 }
 fan()
 console.log(secondFavClub)
+CALLBACK FUNCTIONS
+console.log('waiting for some seconds')
+setTimeout(function(){
+    console.log('print out this stuff later')
+},3500)
+// STRICT MODE
+'use strict'
+let x = 'find the unkown number in the equation'
+z = 'dont bother finding this one '
+
+
