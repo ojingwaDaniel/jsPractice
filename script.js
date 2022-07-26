@@ -106,7 +106,14 @@ let timeInterval =setInterval(function(){
         console.log('LEARNING NEVER ENDS')
     }
 },2000)
-
-
-
-
+// WHILE LOOP
+let clientName= prompt('whats your name')
+console.log(`${clientName} Welcome to my Website have a great time`);
+while(true){
+    let password = prompt('input your password ')
+    if(password==="dannyboy"){
+        break
+    }else{
+        console.log('wrong password try again later')
+    }
+}
