@@ -117,3 +117,22 @@ while(true){
         console.log('wrong password try again later')
     }
 }
+//MODIFIED SYSYTEM FOR QUALIFICATION OF VOTING
+let age = prompt('How old are you')
+
+    if (age < 18) {
+        console.log('sorry you are not qualified to vote because you are not up to 18');
+        age++
+        
+    } else {
+        console.log('congratulations you are qualified to vote');
+        
+    }
+let num = 10
+while(num < 100){
+    console.log(num)
+    num++
+
+}
+
+    
