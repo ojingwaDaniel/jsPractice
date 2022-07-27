@@ -28,9 +28,4 @@ let bigClubs = {
 }
 delete bigClubs['5th']
 console.log(bigClubs)
-// CREATING A RANDOM NUMBER 
-// Randomly choosing jersies number
-let number = Math.random() * 12
-let roundNumber = Math.floor(number)
-console.log(roundNumber);
 
