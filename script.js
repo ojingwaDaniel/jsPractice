@@ -25,7 +25,7 @@ function mutiply(digit1,digit2){
     return answer
 }
 let finalAnswer =  mutiply(2,2)
-                    FUNCTION : REST
+                    //FUNCTION : REST
 function addingNumbers(clientName,...numbers){
     let answer = 1
 
@@ -57,5 +57,82 @@ let customer = {
     
    }
    console.log(customer.favWord('WHEN DUTY CALLS COMMITMENT IS REQUIRED'))
+   // HOW TO MAKE YOUR JAVASCRIPT FROM LAGGING IN A PAGE...> HEAD TO HTML
+//    window.onbeforeunload = function(){
+//     console.log('Posting a picture')
+//     return 'are you sure you want to refresh this page'
+//    }
+//    window.Beforeunload = function(){
+//     console.log('Posting a picture')
+//     alert( 'are you sure you want to refresh this page')
+//    }
+// //        SCOOPING JAVASCRIPT involving javascript
+let digits = 65;
+if(digits ===65){
+    var prints = 'if you see any digit it must be 65'
+}else{
+    console.log('oga enter 65 digits')
+}
+console.log(prints)
+//  HOISIING IN JAVASCRIPT
+console.log('will barcelona actually sign',player2)
+var player2 = 'kounde'
+console.log('barcelona won the race to sign',player2)
+// JAVASCRIPT CLOSURE
+// because  the variable secondFavClub is a closure of the function fan() it cant be accessed outside the closure
+let club = 'Barcelona'
+function fan(){
+    console.log(`i was born with my blood been blue and red , guess which club is that , which club if not ${club}`)
+    let secondFavClub = 'Man City'
+}
+fan()
+console.log(secondFavClub)
+//CALLBACK FUNCTIONS
+console.log('waiting for some seconds')
+setTimeout(function(){
+    console.log('print out this stuff later')
+},3500)
+// STRICT MODE
+'use strict'
+let x = 'find the unkown number in the equation'
+z = 'dont bother finding this one '
+// SET INTERVAL
+let count = 0
+let timeInterval =setInterval(function(){
+    console.log('LETS KEEP IMPROVING')
+    count++
+    if (count ===5) {
+        clearInterval(timeInterval)
+        console.log('LEARNING NEVER ENDS')
+    }
+},2000)
+// WHILE LOOP
+let clientName= prompt('whats your name')
+console.log(`${clientName} Welcome to my Website have a great time`);
+while(true){
+    let password = prompt('input your password ')
+    if(password==="dannyboy"){
+        break
+    }else{
+        console.log('wrong password try again later')
+    }
+}
+//MODIFIED SYSYTEM FOR QUALIFICATION OF VOTING
+let age = prompt('How old are you')
 
+    if (age < 18) {
+        console.log('sorry you are not qualified to vote because you are not up to 18');
+        age++
+        
+    } else {
+        console.log('congratulations you are qualified to vote');
+        
+    }
+let num = 10
+while(num < 100){
+    console.log(num)
+    num++
 
+}
+
+    
