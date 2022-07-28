@@ -65,5 +65,41 @@ let listedItem = {
         console.log(`the most important item here is the ${this.phone}`)
     }
 }
+ 
+ 
 listedItem.mostImportant()
+/////DIFFERENT METHOD OF WRITING FUNCTIONS
+ function print(name){
+    console.log(`hello ${name} how are you doing`)
+ }
+ let hello = function(person){
+    console.log(`hello ${person}  whats up`)
+ }
+ let hello2 = (person2)=>{
+    console.log(`hello ${person2} how you dey`)
+ }
+ let hello3 = (person3)=> console.log(`hello ${person3}  how your side`)
+ print('Daniel')
+ hello('Todimu')
+ hello2('Samuel')
+hello3('Chidebere')
+// // JAVASCRIPT CLASSES
+class testingMyNewClass{
+    favFood(food){
+        this.food = food
+        if (this.food == undefined) {
+            this.food = 'porridge yam'
+        }
+
+    }
+    individualName(name){
+        console.log(`${name} favourite food is ${this.food}`)
+
+    }
     
+
+}
+let classes = new testingMyNewClass
+classes.favFood()
+classes.individualName('Daniel')
+
