@@ -102,4 +102,21 @@ class testingMyNewClass{
 let classes = new testingMyNewClass
 classes.favFood()
 classes.individualName('Daniel')
+//// JAVASRIPT CLASS CONSTRUCTOR
+class bestPlayerInTheWorld{
+    constructor(player,player2){
+        this.player = player
+        this.player2 = player2 
+    }
+    coaches(){
+        console.log(`Most coaches mostly say that the best player in the world are ${this.player} and ${this.player2}`)
+    }
+    journalist(){
+        console.log(` Most journalist round the world believe that the best player in the world are ${this.player}and ${this.player2}`)
+    }
+}
+let bestplayer = new bestPlayerInTheWorld('Messi', 'ronaldo')
+bestplayer.coaches()
+bestplayer.journalist()
+
 
