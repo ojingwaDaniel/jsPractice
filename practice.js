@@ -28,11 +28,42 @@ let bigClubs = {
 }
 delete bigClubs['5th']
 console.log(bigClubs)
+//using TRY and catch 
+let digits = 22
+try {
+    digits = digits.toLowerCase()
+    
+    
+} catch (error) {
+    console.warn('ERROR OCCURED:',error)
+    
+}finally{
+    console.log(digits)
 
+}
+// this.
+function testing(){
+    if (this.num == undefined) {
+        this.num = 1
+        
+    } else {
+        this.num++
+        
+    }
+    console.log(`the number this time around is ${this.num}`)
 
-
-// CREATING A RANDOM NUMBER 
-// Randomly choosing jersies number
-let number = Math.random() * 12
-let roundNumber = Math.floor(number)
-console.log(roundNumber);
+}
+testing()
+testing()
+testing()
+// APPLYING IT IN OBJECTS
+let listedItem = {
+    'phone': 'iphone',
+    'senators': 5,
+    'earpod': "apple product",
+    mostImportant(){
+        console.log(`the most important item here is the ${this.phone}`)
+    }
+}
+listedItem.mostImportant()
+    
