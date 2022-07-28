@@ -1,13 +1,14 @@
-while(true){
+while (true) {
     let guessedNumber = prompt('Guess a number from 1-10')
     guessedNumber = Number(guessedNumber)
-    let randomNumber = Math.ceil(Math.random() * 10 )
+    let randomNumber = Math.floor(Math.random() * 10)
     if (guessedNumber === randomNumber) {
-        console.log(`Congratulation your guess of ${guessedNumber} match our random number of ${randomNumber}`)
-        break;
+        console.log(`congratulation your guessed number ${guessedNumber} matched our random  choosing number ${randomNumber}`)
+        break
         
     } else {
-        console.log(`sorry you guessed ${guessedNumber} but the correct number was ${randomNumber}`)
+        console.log(`sorry your guessed number ${guessedNumber} does not match  our random choosing number ${randomNumber}`)
         
     }
+    
 }
