@@ -8,4 +8,4 @@ function multiplication(...numbers){
     console.log(answer)
 
 }
-multiplication(3,3,3)
+multiplication(45,234,567)
